@@ -1,0 +1,55 @@
+{
+    "title": "python libary",
+    "author": "small ren",
+    "description": "每周一个python标准库",
+    "language": "zh-hans",
+    "plugins": [
+            "toggle-chapters", 
+            "simple-page-toc", 
+            "back-to-top-button",
+            "code",
+            "copy-code-button",
+            "insert-logo",
+            "github",
+            "page-toc-button",
+            "klipse",
+            "donate",
+            "pageview-count",
+            "lightbox",
+            "custom-favicon"
+    ],
+    "pluginsConfig": {
+         "insert-logo": {
+             "url": "images/logo.png",
+             "style": "background: none; max-height: 30px; min-height: 30px"
+         },
+         "github": {
+             "url": "https://github.com/smallren101/python_libary"
+         },
+         "page-copyright": {
+             "description": "modified at",
+             "signature": "small 昌",
+             "wisdom": "Designer, Frontend Developer & overall web enthusiast",
+             "format": "YYYY-MM-dd hh:mm:ss",
+             "copyright": "Copyright &#169; small 昌",
+             "timeColor": "#666",
+             "copyrightColor": "#666",
+             "utcOffset": "8",
+             "style": "normal",
+             "noPowered": false
+         },
+         "page-toc-button": {
+             "maxTocDepth": 2,
+             "minTocSize": 2
+         },
+         "donate": {
+             "wechat": "images/weichat.png",
+             "alipay": "images/alipay.png",
+             "title": "",
+             "button": "打赏",
+             "alipayText": "支付宝打赏",
+             "wechatText": "微信打赏"
+         },
+         "favicon": "./images/favicon.ico"
+    }
+}
